@@ -76,9 +76,11 @@ int main(void)
 
     salario_liquido = salario_bruto - inss - irrf;
 
-    printf("O valor do desconto do inss é de: %2f\n", inss);
-
-    printf("O valor do desconto do irrf é de: %2f\n", irrf);
-
-    printf(" O valor do salario liquido é de: %2f\n", salario_liquido);
+    printf("####################################################\n");
+    printf("-------------------------------------------------\n");
+    printf("O valor do desconto do inss e de: R$ %.2f\n", inss);
+    printf("O valor do desconto do irrf e de: R$ %.2f\n", irrf);
+    printf("O valor do salario liquido e de: R$ %.2f\n", salario_liquido);
+    printf("---------------------------------------------------\n");
+    printf("##################################################\n");
 }
